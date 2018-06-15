@@ -1,4 +1,17 @@
-# What is CSS Grid?
+# CSS Grid Lab
+
+## Problem Statement
+
+There are various ways to build a responsive website layout. Choosing one can be
+confusing and implementing it can be complicated. The best solution is quick,
+structured and comprehensive. Enter CSS Grid.
+
+## Objectives
+
+1. Create a CSS Grid layout
+2. Identify CSS Grid properties
+
+## Create a CSS Grid Layout
 
 CSS Grid is a set of properties that allow us to rapidly build responsive
 layouts for websites. Similar to flexbox, you can use grid properties to build
@@ -7,17 +20,17 @@ variety of screen sizes.
 
 However, where flexbox gives you very granular control over how individual
 elements stretch, shrink and behave in a flex container, grid places a greater
-emphasis on setting up the rules of the container itself, automatically
-handling the stretching and shrinking of elements by aligning them to
-rows and columns. Grid is designed for displaying content in two directions,
-whereas flexbox is designed for displaying in one direction.
+emphasis on setting up the rules of the container itself, automatically handling
+the stretching and shrinking of elements by aligning them to rows and columns.
+Grid is designed for displaying content in two directions, whereas flexbox is
+designed for displaying in one direction.
 
-For this lesson, we're going to dive straight in and set up a nice grid, then
-discuss the properties involved. We're starting out with some basic code in
-our `index.html` and `index.css` files. Open up the `index.html` in a browser
-tab or if you're using the Learn IDE, run `httpserver` and navigate to the IP
-address provided. Currently, in our HTML, we have one div with a
-class `grid-container`, and twelve divs inside of it.
+We're going to dive straight in and set up a grid, then discuss the
+properties involved. We're starting out with some basic code in our `index.html`
+and `index.css` files. Open up the `index.html` in a browser tab or if you're
+using the Learn IDE, run `httpserver` and navigate to the IP address provided.
+Currently, in our HTML, we have one div with a class `grid-container`, and
+twelve divs inside of it.
 
 If we look at the page in our browser, it is displaying the twelve divs,
 stacked and filling the width of the screen. To turn this into a grid, we
@@ -71,7 +84,10 @@ columns, but have now set it so the browser decides how many rows are
 necessary. If you set just two columns, we will end up with six rows. Setting
 five columns will produce three rows, with three empty cells at the end.
 
-Before we go into further detail, let's talk about what we've used so far.
+## Identify CSS Grid Properties
+
+Before we do anything else to our grid, let's talk about the specific properties CSS
+Grid provides.
 
 #### `display: grid`
 
@@ -291,3 +307,9 @@ to fit the space, or even align to the `baseline` of inner text.
 
 We can also choose to apply these justify and align rules to the entire grid
 using two properties on the parent element: `justify-items` and `align-items`.
+
+## Conclusion
+
+CSS Grid allows us to set up a flexible grid-based page layout quickly and also
+gives us various properties to customize the grid. If you need an effcient way
+to build responsive websites, CSS Grid is a good modern tool.
