@@ -311,5 +311,5 @@ using two properties on the parent element: `justify-items` and `align-items`.
 ## Conclusion
 
 CSS Grid allows us to set up a flexible grid-based page layout quickly and also
-gives us various properties to customize the grid. If you need an effcient way
+gives us various properties to customize the grid. If you need an efficient way
 to build responsive websites, CSS Grid is a good modern tool.
