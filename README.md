@@ -308,8 +308,13 @@ to fit the space, or even align to the `baseline` of inner text.
 We can also choose to apply these justify and align rules to the entire grid
 using two properties on the parent element: `justify-items` and `align-items`.
 
+## Moving On
+
+When you're ready to leave this lab, run `learn` from the command line. If the
+test pass, enter `learn submit`. You'll then be prompted to move on!
+
 ## Conclusion
 
 CSS Grid allows us to set up a flexible grid-based page layout quickly and also
-gives us various properties to customize the grid. If you need an effcient way
+gives us various properties to customize the grid. If you need an efficient way
 to build responsive websites, CSS Grid is a good modern tool.
