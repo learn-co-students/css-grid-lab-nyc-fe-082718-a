@@ -7,9 +7,12 @@ body {
 .grid-container {
   height: 100vh;
   width: 100vw;
+  /* your properties here */
 }
 
 .grid-item {
   background-color: grey;
   border: 1px solid black;
 }
+
+/* add the .bigItem class */
